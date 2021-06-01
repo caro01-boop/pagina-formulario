@@ -1,0 +1,45 @@
+form{
+	width: 30%;
+	border: 5px solid:#1D1D1D;
+	border-radius: 5px;
+	margin: 20px;
+	padding: 20px;
+	background:#F2C7BC ;
+	opacity:50%; 
+	color:#1D1D1D;
+}
+
+label{
+	font-family: calibri;
+	font-size: 18px;
+	color: #1D1D1D; 
+	display: block;
+	width: 100px;
+}
+
+input,textarea,select{
+	width: 100%;
+	font-size: 12px;
+	padding: 10px;
+	box-sizing: border-box;
+
+}
+#Genero{
+	width: 15%;
+	padding: 0px;
+}
+
+
+p{
+	font-family: calibri;
+	font-size: 20px;
+	text-align: left
+	margin:auto;
+}
+
+.single-line {
+  width: 100%;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}

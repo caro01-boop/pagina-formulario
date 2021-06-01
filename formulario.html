@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="es"> 
+<head>
+<meta charset="utf-8">	
+<title>Formulario</title>
+
+<script src="js/formulario.js"></script>
+<link rel="stylesheet" type="text/css" href="css/diseño.css">
+</head>
+<body>
+  <div class="container">
+    <section class="row">
+      <div class="col-md-12">
+        <h1 class="text-center">Queremos Conocerte</h1>
+        <p class="text-center">Beauty Supply Carol.</p>
+      </div>
+    </section>
+    <hr><br/>
+    <section class="row">
+      <section class="col-md-12">
+        <h3>Datos basicos</h3>
+        <form action="datos.php" method="GET">
+	<label for="Nombre">Nombre:</label>	
+	<input type="text" name="Nombre" placeholder="Escribe tu nombre" id="Nombre">
+	<br/>
+	<br/>
+	<label for="Edad">Edad:</label>	
+	<input type="number" name="Edad" id="Edad">
+	<br/>
+	<br/>
+	<label for="Email">Correo Electronico:</label>	
+	<input type="Email" name="Email" placeholder="Correo Electronico" id="Email">
+	<br/>
+	<br/>
+	<label for="Telefono">Telefono:</label>	
+	<input type="Numero de Telefono" name="Numero telefónico" placeholder="Numero telefónico" id="Telefono">
+	<br/>
+	<br/>
+	<label for="Date">Fecha de Nacimiento:</label>	
+	<input type="Date" name="Date" id="Date">
+	<br/>
+	<br/>
+	<label for="Pais">Pais:</label>
+	<select name="Pais">
+		<option value="El Salvador">El Salvador</option>
+		<option value="Guatemala">Guatemala</option>
+		<option value="Nicaragua">Nicaragua</option>
+		<option value="Honduras">Honduras</option>
+	</select>
+	<br/>
+	<br/>
+	<label for="Genero">Genero:</label>
+	<input type="Radio" name="Genero" id="Genero">Femenino
+	<input type="Radio" name="Genero" id="Genero">Masculino
+
+<hr color="black" size=1 width="420">
+    <!--  Servicios  -->
+    <section class="row">
+      <div class="col-md-12">
+        <h3>Cuentanos tu experiencia sobre nuestros productos</h3>
+        <p></p>
+      </div>
+    </section>
+    <!--  PREGUNTA 1  -->
+    <section class="row">
+      <div class="col-md-6">
+        <p>1- ¿Cuál es su tratamiento favorito?</p>
+      </div>
+    <div class="single-line">
+        <label class="radio">
+        <input type="radio" name="pregunta1" id="pregunta1a" > Aloe Vera Mask
+      </label>
+      </div>
+      <div class="single-line">
+        <label class="radio">
+        <input type="radio" name="pregunta1" id="preguntab" > Charcoal Mask
+      </label>
+      </div>
+      <div class="single-line">
+        <label class="radio">
+        <input type="radio" name="pregunta1" id="preguntac" > Honey Mask
+      </label>
+      </div>
+      <div class="single-line">
+        <label class="radio">
+        <input type="radio" name="pregunta1" id="preguntac" > Cucumber Mask
+      </label>
+      </div>
+    </section>
+    <!--  PREGUNTA 2  -->
+    <section class="row">
+      <div class="single-line">
+        <p>2- ¿Qué te parece su precio?</p>
+      </div>
+      <div class="single-line">
+        <label class="radio">
+        <input type="radio" name="pregunta1" id="pregunta1a" > Precio Accesible
+      </label>
+      </div>
+      <div class="single-line">
+        <label class="radio">
+        <input type="radio" name="pregunta1" id="preguntab" > Precio Elevado
+      </label>
+      </div>
+      <div class="single-line">
+        <label class="radio">
+        <input type="radio" name="pregunta1" id="preguntac" > N/A
+      </label>
+      </div>
+    </section>
+    <!--  PREGUNTA 3  -->
+    <section class="row">
+      <div class="col-md-6">
+        <p>3- ¿Volverías a consumir este servicio o producto? </p>
+      </div>
+      <div class="single-line">
+        <label class="radio">
+        <input type="radio" name="pregunta1" id="pregunta1a" > Si
+      </label>
+      </div>
+      <div class="single-line">
+        <label class="radio">
+        <input type="radio" name="pregunta1" id="preguntab" > No
+      </label>
+      </div>
+      <div class="single-line">
+        <label for="por que">Por que</label> 
+         <input type="text" name="por que" placeholder="Escribe el motivo" id="Escribe el motivo">
+  
+        
+	<br/>
+      </label>
+      </div>
+    </section>
+    <!--  PREGUNTA 4  -->
+    <section class="row">
+      <div class="single-line">
+      <p>4- ¿Lo recomendarías a tus amigos y familiares?</p>
+      <div class="single-line">
+        <label class="radio">
+        <input type="radio" name="pregunta1" id="pregunta1a" > Si
+      </label>
+      </div>
+      <div class="single-line">
+        <label class="radio">
+        <input type="radio" name="pregunta1" id="preguntab" > No
+      </label>
+      </div>
+      <div class="single-line">
+       <label for="por que">Por que</label> 
+         <input type="text" name="por que" placeholder="Escribe el motivo" id="Escribe el motivo">
+      </div>
+    </section><br>
+    <hr>
+    <!--  Durante la Atención  -->
+    <section class="row">
+      <div class="col-md-12">
+        <h3>Cuanto cuidas tu piel.</h3>
+        <p></p>
+      </div>
+    </section>
+    <!--  PREGUNTA 5  -->
+    <section class="row">
+      <div class="col-md-6">
+        <p>5- ¿Cuántas veces te lavas la cara al día?</p>
+      </div>
+      <div class="single-line">
+        <label class="radio">
+        <input type="radio" name="pregunta1" id="pregunta1a" > 1 a 3 vez al dia
+      </label>
+      </div>
+      <div class="single-line">
+        <label class="radio">
+        <input type="radio" name="pregunta1" id="preguntab" > Solo por la noches
+      </label>
+      </div>
+      <div class="single-line">
+        <label class="radio">
+        <input type="radio" name="pregunta1" id="preguntac" > Nunca
+      </label>
+      </div>
+    </section>
+    <!--  PREGUNTA 6  -->
+    <section class="row">
+      <div class="col-md-6">
+        <p>6- ¿Qué tipo de piel tienes?</p>
+      </div>
+      <div class="col-md-2">
+        <label class="radio">
+        <input type="radio" name="pregunta1" id="pregunta1a" > Piel Grasa
+      </label>
+      </div>
+      <div class="col-md-2">
+        <label class="radio">
+        <input type="radio" name="pregunta1" id="preguntab"> Piel Seca
+      </label>
+      </div>
+      <div class="col-md-2">
+        <label class="radio">
+        <input type="radio" name="pregunta1" id="preguntac" > Piel Mixta
+      </label>
+      </div>
+    </section>
+    <!--  PREGUNTA 7  -->
+    <section class="row">
+      <div class="col-md-6">
+        <p>7- ¿Te exfolias?</p>
+      </div>
+      <div class="col-md-2">
+        <label class="radio">
+        <input type="radio" name="pregunta1" id="pregunta1a" value="SI"> Si
+      </label>
+      </div>
+      <div class="col-md-2">
+        <label class="radio">
+        <input type="radio" name="pregunta1" id="preguntab" value="NO"> No
+      </label>
+      </div>
+      <div class="col-md-2">
+        <label class="radio">
+        <input type="radio" name="pregunta1" id="preguntac" value="NA"> N/A
+      </label>
+      </div>
+    </section>
+    <!--  PREGUNTA 8  -->
+    <section class="row">
+      <div class="col-md-6">
+        <p>8- ¿Utilizas Hidrantante? </p>
+      </div>
+      <div class="col-md-2">
+        <label class="radio">
+        <input type="radio" name="pregunta1" id="pregunta1a"> Si
+      </label>
+      </div>
+      <div class="col-md-2">
+        <label class="radio">
+        <input type="radio" name="pregunta1" id="preguntab" > No
+      </label>
+      </div>
+      <div class="col-md-2">
+        <label class="radio">
+        <input type="radio" name="pregunta1" id="preguntac"> N/A
+      </label>
+      </div>
+    </section>
+    
+    <br />
+    <hr />
+    <!--  Satisfacción General  -->
+    <section class="row">
+      <div class="col-md-12">
+        <h3>Satisfacción General.</h3>
+        <p></p>
+      </div>
+    </section>
+    <!--  PREGUNTA   -->
+    <section class="row">
+      <div class="col-md-12">
+        <section class="row">
+          <div class="col-md-8">
+            <p> ¿Cómo calificaría su experiencia global respecto a los servicios y productos que ofrecemos?</p>
+          </div>
+          <div class="col-md-4">
+            <select class="form-control" id="pregunta13">
+            <option value="5">Muy Buena</option>
+            <option value="4">Buena</option>
+            <option value="3">Regular</option>
+            <option value="2">Mala</option>
+            <option value="1">Muy Mala</option>
+            <option value="0">No Responde</option>
+          </select>
+          </div>
+        </section>
+      </div>
+    </section><br />
+            </div>
+    </section><br />
+    <hr />
+
+    <!--  Comentarios  -->
+    <section class="row">
+      <div class="col-md-12">
+        <h3>Comentarios.</h3>
+        <p></p>
+      </div>
+    </section>
+    <section class="row">
+      <div class="col-md-12">
+        <div class="form-group">
+          <label for="comment">Comentarios:</label>
+          <textarea class="form-control" rows="5" id="comentarios"></textarea>
+        </div>
+      </div>
+    </section>
+    <section class="row">
+      <br/>
+	<br/>
+	<input type="Submit">
+      </div>
+    </section>
+  </div>
+
+  <br /><br />
+  <footer class="container">
+    <p>Todos los derechos reservados para Beauty Supply Carol <p/>
+  </footer>
+</body>
+</html>
